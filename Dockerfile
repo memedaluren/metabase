@@ -5,6 +5,7 @@
 FROM node:22-bullseye as builder
 
 ARG MB_EDITION=oss
+ARG GOARCH=adm64
 ARG VERSION
 
 WORKDIR /home/node
